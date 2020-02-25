@@ -19,6 +19,15 @@ Being used in production by FredBoat, Dyno, Rythm, LewdBot, and more.
 * Prometheus metrics
 * Docker images
 
+## Requirements
+
+* Java 11 LTS or greater required.
+* OpenJDK or Zulu running on Linux AMD64 is officially supported.
+
+Support for Darwin (Mac), Windows AMD64, and Linux ARM (Raspberry Pi) is provided on a best-effort basis. This is dependent on Lavaplayer's native libraries.
+
+Support for other JVMs is also best-effort. Periodic CPU utilization stats are prone to not work everywhere.
+
 ## Changelog
 
 Please see [here](CHANGELOG.md)
@@ -71,7 +80,6 @@ users about the compatibility of their clients to the Lavalink server.
 * [Lavalink.NET](https://github.com/Dev-Yukine/Lavalink.NET) (.NET)
 * [DSharpPlus.Lavalink](https://github.com/DSharpPlus/DSharpPlus/tree/master/DSharpPlus.Lavalink) ([DSharpPlus](https://github.com/DSharpPlus/DSharpPlus/), .NET)
 * [Lavalink4NET](https://github.com/angelobreuer/Lavalink4NET) ([Discord.Net](https://github.com/RogueException/Discord.Net), [DSharpPlus](https://github.com/DSharpPlus/DSharpPlus/), .NET)
-* [Luna](https://github.com/CharlotteDunois/Luna) ([Yasmin](https://github.com/CharlotteDunois/Yasmin) or generic, PHP)
 * [gavalink](https://github.com/foxbot/gavalink) (Go)
 * [Magma](https://github.com/initzx/magma/) (discord.py, Python)
 * [lavapotion](https://github.com/SamOphis/lavapotion) (Elixir)

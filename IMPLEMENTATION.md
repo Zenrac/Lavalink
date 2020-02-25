@@ -383,7 +383,7 @@ block
 
 #### Unmark a failed address
 ```
-GET /routeplanner/free/address
+POST /routeplanner/free/address
 Host: localhost:8080
 Authorization: youshallnotpass
 ```
@@ -401,7 +401,7 @@ Response:
 
 #### Unmark all failed address
 ```
-GET /routeplanner/free/all
+POST /routeplanner/free/all
 Host: localhost:8080
 Authorization: youshallnotpass
 ```
